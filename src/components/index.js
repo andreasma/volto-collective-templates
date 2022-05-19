@@ -8,3 +8,7 @@
  *   Footer,
  * };
  */
+ import TlCenterView from './Views/TlCenter';
+ import OwnProjects from './Ownprojects/OwnProjects';
+
+ export { TlCenterView, OwnProjects };
