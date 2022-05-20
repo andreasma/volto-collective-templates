@@ -33,18 +33,18 @@ const OwnProjects = () => {
     return (
         <>
         <div>
-        <h2>Your Own Projects</h2>
+        <h2 className='ownprojects'>Your Own Projects</h2>
         <p>These are your projects on this site:</p>
         {ownprojects &&
             ownprojects.map((item) => (
               <div padded clearing key={item.id}>
-                <h3>
+                <h3 className='ownprojects'>
                   <Link to={item['@id']} >
                     {item.title}
                   </Link>
                 </h3>
 </div>))}
-        <h3>Submit new {content.product_title}</h3>
+        <h3 className='ownprojects'>Submit new {content.product_title}</h3>
         <p><span>If you already created a new </span>
         <span>{content.product_title} </span>
         <span>please submit your new </span><br />
