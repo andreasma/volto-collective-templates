@@ -97,7 +97,9 @@ const TlCenterView = props => {
           <OwnProjects />
           <h2 className='mostrecent'>Most recenct {content.product_title}</h2>
           <h2 className='byCategory'>Browse {content.product_title} by Category</h2>
+          <div className='installinstructions'>
           <h3>Install Instructions</h3>
+          </div>
           <h3>Reporting {content.product_title}-Bugs</h3>
           <h3>About</h3>
           <h3>Contact a Project Author</h3>
