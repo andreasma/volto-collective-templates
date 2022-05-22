@@ -138,7 +138,7 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@plone/volto": "15.11.1"
+    "@plone/volto": "15.11.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",

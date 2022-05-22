@@ -3025,10 +3025,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@15.11.1":
-  version "15.11.1"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-15.11.1.tgz#83744608b70fb476d1b60b516ed29234d0a51a19"
-  integrity sha512-yaJwC119f1Nax+iSukVcsmo45r/ukFe9XcSWUs6WGbyGtzxfltJ4NeFhmXBTF3TD6AjfFsOpPhrN+dTUEE0u7w==
+"@plone/volto@15.11.2":
+  version "15.11.2"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-15.11.2.tgz#c088d4b5f7bee12b1d2baa44258a7f8c6c14c6e3"
+  integrity sha512-Hik/TQERz9NEXqEIZrcw8osJyYkGKFVaenohLf7aw7Z4xcIJyQ+pw05gOJ3CIaVxRjlK7wXRasMV30yfkFeF7g==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
