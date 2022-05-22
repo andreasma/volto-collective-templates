@@ -16,6 +16,7 @@
  import { TlCenterView } from './components';
  // All your imports required for the config here BEFORE this line
  import '@plone/volto/config';
+import TlProjectView from 'components/Views/TlProject';
  
  
  export default function applyConfig(config) {
@@ -27,6 +28,7 @@
        ...config.views.contentTypesViews,
  
        tlcenter: TlCenterView,
+       tlproject: TlProjectView,
  
      },
  
